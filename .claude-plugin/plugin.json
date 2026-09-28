@@ -9,6 +9,8 @@
     "url": "https://createstate.ai"
   },
   "homepage": "https://www.createstate.ai/web/quickstart/claude",
+  "documentationUrl": "https://www.createstate.ai/web/quickstart/claude",
+  "repository": "https://github.com/Create-State/claude-plugin",
   "license": "MIT",
   "icon": "assets/icon.png",
   "privacyPolicyUrl": "https://www.createstate.ai/web/privacy",
