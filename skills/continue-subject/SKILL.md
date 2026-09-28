@@ -14,6 +14,7 @@ At the start of a conversation, restore the last session or load the subject the
 3. If there is no recent handoff, call `getProjectWorldModel` with `model_name` set to the subject's display name. A display name in `model_id` does not match. `model_id` is only for a UUID.
 4. If the user has several models and did not name one, call `listUserWorldModels` and ask which subject to load.
 5. If no model exists yet, call `createWorldModel`. For a subject that is not software, set `language` to `markdown`. For a software project, set `language` to one word such as `python` or `javascript`. Do not pass `N/A`, and do not put the user's sentence in `language`.
+6. After `createWorldModel`, call `getProjectWorldModel` with that subject's `model_name` before any capture or search. That load makes the new model active.
 
 If the Create State tools are missing, ask the user to connect Create State from this plugin's Connectors tab and sign in with their own account. Do not invent a code or a password.
 
