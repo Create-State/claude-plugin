@@ -8,7 +8,7 @@ A world model can hold any subject you can describe. A city restaurant guide, wi
 
 ## Use it
 
-Install the plugin, then open its Connectors tab and connect Create State. Sign in with your own Create State account. Claude will ask you to approve that connection.
+Install the plugin, then open its Connectors tab and connect Create State. Sign in with your email. An account is created the first time you sign in. If that email already has an account, the first connection asks for the code sent to it. Later connections sign you into that account. Claude will ask you to approve that connection.
 
 Then talk normally:
 
