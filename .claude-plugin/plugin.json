@@ -1,0 +1,22 @@
+{
+  "name": "create-state",
+  "displayName": "Create State",
+  "version": "1.0.0",
+  "description": "Save what you decide and what you learn, then load that subject in a later chat.",
+  "author": {
+    "name": "Create State",
+    "email": "support@createstate.ai",
+    "url": "https://createstate.ai"
+  },
+  "homepage": "https://createstate.ai/web/documentation#claude-desktop",
+  "license": "MIT",
+  "icon": "assets/icon.svg",
+  "keywords": [
+    "knowledge",
+    "memory",
+    "notes",
+    "decisions",
+    "world-model"
+  ],
+  "mcpServers": "./.mcp.json"
+}

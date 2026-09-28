@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "create-state": {
+      "type": "http",
+      "url": "https://createstate.ai/claude"
+    }
+  }
+}
