@@ -10,7 +10,8 @@
   },
   "homepage": "https://www.createstate.ai/web/quickstart/claude",
   "license": "MIT",
-  "icon": "assets/icon.svg",
+  "icon": "assets/icon.png",
+  "privacyPolicyUrl": "https://www.createstate.ai/web/privacy",
   "keywords": [
     "knowledge",
     "memory",
