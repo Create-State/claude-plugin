@@ -23,8 +23,10 @@ At the start of a chat, Claude looks for a recent session handoff and restores i
 
 The skills do not send data by themselves. When you ask Claude to save or load a subject, the Create State connector sends that content to createstate.ai over HTTPS at https://createstate.ai/claude. Create State stores it in your world model until you delete the model. Saving a photo, screenshot, or diagram needs a paid plan. The free Starter plan can still save a written description of the image. The plugin does not read tokens or keys from your computer.
 
-Privacy policy: https://createstate.ai/web/legal/privacy
+Privacy policy: https://www.createstate.ai/web/privacy
+
+Terms of service: https://www.createstate.ai/web/terms
 
 Support: support@createstate.ai
 
-Documentation: https://createstate.ai/web/documentation#claude-desktop
+Quick start: https://www.createstate.ai/web/quickstart/claude
