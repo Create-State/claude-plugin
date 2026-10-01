@@ -1,6 +1,6 @@
 ---
 name: save-knowledge
-description: Save a decision, preference, note, or code change into the active world model. Use when the user asks to remember or save something, states a preference, or finishes a piece of work.
+description: Save a decision, preference, note, or code change into the active world model. Use when the user says remember this, note that, keep in mind, for next time, or do not forget, asks to save something, states a preference, says we decided or we chose, or finishes a piece of work.
 ---
 
 # Save knowledge

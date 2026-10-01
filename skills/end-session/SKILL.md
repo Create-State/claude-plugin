@@ -1,6 +1,6 @@
 ---
 name: end-session
-description: Save a session handoff so a later chat can continue. Use when the user is stopping, says to save progress, or a long conversation should be picked up later.
+description: Save a session handoff so a later chat can continue. Use when the user is stopping, says that is all for now, says to pick this up later or tomorrow, asks to save progress or save where we are, or when a long conversation should be picked up later.
 ---
 
 # End the session

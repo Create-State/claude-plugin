@@ -1,8 +1,8 @@
 {
   "name": "create-state",
   "displayName": "Create State",
-  "version": "1.0.1",
-  "description": "Save what you decide and what you learn, then load that subject in a later chat.",
+  "version": "1.0.2",
+  "description": "Pick up any subject in a new chat without explaining it again. Save decisions, preferences, and notes as you go; a later chat loads the subject by name and continues where you stopped.",
   "author": {
     "name": "Create State",
     "email": "support@createstate.ai",
@@ -19,7 +19,11 @@
     "memory",
     "notes",
     "decisions",
-    "world-model"
+    "world-model",
+    "remember",
+    "continuity",
+    "context",
+    "handoff"
   ],
   "mcpServers": "./.mcp.json"
 }

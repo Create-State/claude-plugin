@@ -1,6 +1,6 @@
 ---
 name: summarize-subject
-description: Summarize what is already stored about a subject. Use when the user asks for a summary, open questions, what they decided, or why something was chosen.
+description: Summarize what is already stored about a subject. Use when the user asks for a summary or recap, says catch me up or remind me, asks what you know about a subject, asks for open questions, what they decided, or why something was chosen.
 ---
 
 # Summarize a subject

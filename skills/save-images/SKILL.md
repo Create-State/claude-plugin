@@ -1,6 +1,6 @@
 ---
 name: save-images
-description: Save a photo, screenshot, menu, or diagram the user attached. Use when the user shares one or more images, or asks to remember what a picture shows.
+description: Save a photo, screenshot, menu, receipt, whiteboard, or diagram the user attached. Use when the user shares one or more images, asks to remember what a picture shows, or wants to find an image again later.
 ---
 
 # Save images

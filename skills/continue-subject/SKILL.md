@@ -1,6 +1,6 @@
 ---
 name: continue-subject
-description: Continue a saved subject at the start of a chat. Use when a conversation starts, or when the user says to load, continue, or pick up notes, a guide, a routine, or a project.
+description: Continue a saved subject at the start of a chat. Use when a conversation starts, when the user asks where we left off, what we decided last time, or whether you remember something, or when the user says to load, continue, or pick up notes, a guide, a routine, or a project.
 ---
 
 # Continue a subject

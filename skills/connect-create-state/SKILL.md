@@ -1,6 +1,6 @@
 ---
 name: connect-create-state
-description: Connect the Create State account so the plugin's tools appear. Use when the Create State tools are missing, when a tool reports that sign-in is required, when the plugin was just installed, or when the user asks how to connect, sign in, or reconnect Create State.
+description: Connect the Create State account so the plugin's tools appear. Use when the Create State tools are missing, when a tool reports that sign-in is required, when the plugin was just installed, when the user asks what Create State is or what this plugin does, when the user asks why nothing was saved or remembered, or when the user asks how to connect, sign in, or reconnect Create State.
 ---
 
 # Connect Create State
