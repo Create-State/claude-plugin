@@ -16,7 +16,7 @@ At the start of a conversation, restore the last session or load the subject the
 5. If no model exists yet, call `createWorldModel`. For a subject that is not software, set `language` to `markdown`. For a software project, set `language` to one word such as `python` or `javascript`. Do not pass `N/A`, and do not put the user's sentence in `language`.
 6. After `createWorldModel`, call `getProjectWorldModel` with that subject's `model_name` before any capture or search. That load makes the new model active.
 
-If the Create State tools are missing, ask the user to connect Create State from this plugin's Connectors tab and sign in with their own account. Do not invent a code or a password.
+If the Create State tools are missing, stop and use the connect-create-state skill. It gives the sign-in steps for Claude Code and for Claude chat, Claude Desktop, and Cowork. Do not invent a code or a password.
 
 ## Examples
 

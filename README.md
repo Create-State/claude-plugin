@@ -8,7 +8,14 @@ A world model can hold any subject you can describe. A city restaurant guide, wi
 
 ## Use it
 
-Install the plugin, then open its Connectors tab and connect Create State. Sign in with your email. An account is created the first time you sign in. If that email already has an account, the first connection asks for the code sent to it. Later connections sign you into that account. Claude will ask you to approve that connection.
+Install the plugin, then connect Create State once. The plugin's tools appear after that sign-in.
+
+- In Claude chat, Claude Desktop, or Cowork: open the plugin's Connectors tab, choose Connect, and sign in with your email. Then in a chat open the + button, choose Connectors, and turn Create State on.
+- In Claude Code, VS Code, or the Code tab of Claude Desktop: type /mcp, choose create-state, and choose Authenticate. Your browser opens the sign-in page.
+
+An account is created the first time you sign in. If that email already has an account, the first connection asks for the code sent to it. The code usually arrives within a minute; check your spam folder if it does not. Later connections sign you into that account. If you are ever unsure, ask Claude how to connect Create State and it will walk you through it.
+
+If you tried to connect from Claude Code, VS Code, or Cowork before October 1, 2026 and landed on an error page, that was a fault on our side. It is fixed. Run the steps above once more.
 
 Then talk normally:
 
@@ -18,6 +25,10 @@ Then talk normally:
 - "Why did we choose this approach?"
 
 At the start of a chat, Claude looks for a recent session handoff and restores it. If there is none, it loads the world model you name. When you are done, ask Claude to save a handoff so the next chat can pick up.
+
+## What is in the plugin
+
+Six skill files, which are instructions Claude reads, and the address of the Create State connector. The plugin installs no software and runs nothing on your computer. Every file is in the source repository linked from the listing.
 
 ## Data
 

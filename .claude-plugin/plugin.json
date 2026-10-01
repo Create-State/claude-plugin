@@ -1,7 +1,7 @@
 {
   "name": "create-state",
   "displayName": "Create State",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Save what you decide and what you learn, then load that subject in a later chat.",
   "author": {
     "name": "Create State",
