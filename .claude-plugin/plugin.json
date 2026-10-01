@@ -1,7 +1,7 @@
 {
   "name": "create-state",
   "displayName": "Create State",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Pick up any subject in a new chat without explaining it again. Save decisions, preferences, and notes as you go; a later chat loads the subject by name and continues where you stopped.",
   "author": {
     "name": "Create State",

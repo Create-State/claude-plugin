@@ -7,22 +7,21 @@ description: Connect the Create State account so the plugin's tools appear. Use 
 
 Installing the plugin adds these skills. The tools arrive only after the user connects the Create State connector and signs in once. Until then, saving and loading a subject cannot work, and no skill should try to work around it.
 
-Find out which Claude the user is in, then give only the matching steps.
+Find out which Claude the user is in, then give only the matching steps. Tell the user that sign-in needs only an email address and that an account is created for them if they do not have one; a new user should not go looking for a signup page first.
 
 ## Claude Code, in a terminal, in VS Code, or in the Code tab of Claude Desktop
 
 1. Type `/mcp` and press Enter.
 2. Choose `create-state` from the list. Before sign-in it shows `Needs authentication`. That is expected.
 3. Choose `Authenticate`. The browser opens the Create State sign-in page.
-4. Sign in with an email address. A code is sent to that address. Enter it in the browser.
+4. Sign in with an email address. No account is needed beforehand: one is created for that address on first sign-in. Enter the code sent to that address in the browser.
 5. Back in Claude Code, `/mcp` shows `create-state` as `Connected` with its tools. If it shows `Failed to connect`, choose `Reconnect` once.
 
 ## Claude chat, Claude Desktop chat, or Cowork
 
 1. Open the plugin's page in Claude settings and open its Connectors tab, or open Settings, then Connectors, and find Create State.
-2. Choose `Connect`, sign in with an email address, and enter the code sent to that address.
-3. In the chat, open the `+` button, choose Connectors, and turn Create State on.
-4. Start a new chat if the tools still do not appear.
+2. Choose `Connect` and sign in with an email address. No account is needed beforehand: one is created for that address on first sign-in. Enter the code sent to that address.
+3. Start a new chat. Create State is already switched on there, under the `+` button's Connectors menu, and its tools appear in that chat. Only if they are still missing, open that menu and check the create-state toggle.
 
 ## What sign-in does
 

@@ -10,7 +10,7 @@ A world model can hold any subject you can describe. A city restaurant guide, wi
 
 Install the plugin, then connect Create State once. The plugin's tools appear after that sign-in.
 
-- In Claude chat, Claude Desktop, or Cowork: open the plugin's Connectors tab, choose Connect, and sign in with your email. Then in a chat open the + button, choose Connectors, and turn Create State on.
+- In Claude chat, Claude Desktop, or Cowork: open the plugin's Connectors tab, choose Connect, and sign in with your email. Then start a new chat. Create State is already on there, under the + button's Connectors menu.
 - In Claude Code, VS Code, or the Code tab of Claude Desktop: type /mcp, choose create-state, and choose Authenticate. Your browser opens the sign-in page.
 
 An account is created the first time you sign in. If that email already has an account, the first connection asks for the code sent to it. The code usually arrives within a minute; check your spam folder if it does not. Later connections sign you into that account. If you are ever unsure, ask Claude how to connect Create State and it will walk you through it.
